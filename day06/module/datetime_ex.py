@@ -3,6 +3,7 @@
 import datetime
 
 print(datetime.datetime.today()) #날짜, 시간 모두 출력
+print(datetime.datetime.now())
 print(datetime.date.today())    #날짜
 # print(datetime.time())
 
