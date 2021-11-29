@@ -18,7 +18,7 @@ while n < 11:
         # 통과 아니면 오타 코드 작성
         if answer == question:
             print("통과입니다!")
-            n += 1
+            n += 1          # 다음 문제 출제
         else:
             print("오타! 다시 도전!")
             f += 1

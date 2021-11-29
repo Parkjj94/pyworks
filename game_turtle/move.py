@@ -1,6 +1,6 @@
 import turtle
 
-turtle.shape('turtle')
+turtle.shape('turtle')  # 커서 모양이 거북이 모양으로
 '''
 turtle.forward(100)  #100px만큼 앞으로 이동
 turtle.left(90)      #머리 방향을 왼쪽으로 90도 회전
