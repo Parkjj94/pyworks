@@ -1,5 +1,5 @@
 # VIPCustomer 클래스 정의
-from day09_.class_lib.customer import Customer
+from day09.class_lib.customer import Customer
 
 class VIPCustomer(Customer):
     def __init__(self, cid, name, agent):

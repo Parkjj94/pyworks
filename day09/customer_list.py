@@ -1,7 +1,7 @@
 # 리스트로 고객 관리하기
-from day09_.class_lib.customer import Customer
-from day09_.class_lib.goldcustomer import GoldCustomer
-from day09_.class_lib.vipcustomer import VIPCustomer
+from day09.class_lib.customer import Customer
+from day09.class_lib.goldcustomer import GoldCustomer
+from day09.class_lib.vipcustomer import VIPCustomer
 
 customer = [
     Customer(101, "놀부"),    # Customer 객체 생성

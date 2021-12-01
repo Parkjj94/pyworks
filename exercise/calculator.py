@@ -7,5 +7,6 @@ class Calculator:
         self.value += val   #value = value + val
         return self.value
 
-cal = Calculator()
-print(cal.add(10))
+if __name__=="__main__":
+    cal = Calculator()
+    print(cal.add(10))

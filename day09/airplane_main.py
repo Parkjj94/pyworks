@@ -1,4 +1,4 @@
-from day09_.class_lib.supersonic_airplane import SuperSonicAirPlane
+from day09.class_lib.supersonic_airplane import SuperSonicAirPlane
 
 sa = SuperSonicAirPlane()
 sa.take_off()
