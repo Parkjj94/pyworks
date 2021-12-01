@@ -1,6 +1,6 @@
-from day09.class_lib.customer import Customer
-from day09.class_lib.goldcustomer import GoldCustomer
-from day09.class_lib.vipcustomer import VIPCustomer
+from day09_.class_lib.customer import Customer
+from day09_.class_lib.goldcustomer import GoldCustomer
+from day09_.class_lib.vipcustomer import VIPCustomer
 
 c = Customer(101, "놀부")           # 객체 생성
 g = GoldCustomer(201, "흥부")       # 골드커스토머 객체 생성

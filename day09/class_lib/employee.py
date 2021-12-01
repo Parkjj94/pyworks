@@ -1,5 +1,5 @@
 # Employee 클래스 정의
-from day09.class_lib.person import Person
+from day09_.class_lib.person import Person
 
 class Employee(Person):     # Person 클래스 상속받음
     #pass

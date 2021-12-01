@@ -1,5 +1,5 @@
 # Goldcustomer 클래스 정의 - customer를 상속받음
-from day09.class_lib.customer import Customer
+from day09_.class_lib.customer import Customer
 
 class GoldCustomer(Customer):
     def __init__(self, cid, name):
