@@ -5,6 +5,7 @@ f = open("c:/web_dev/pyfile/season.txt", 'r')      # 파일 읽기 모드 - 'r' 
 # print(season)
 seasons = f.readlines()      # 전체 라인 읽기, 리스트로 반환해서 저장
 print(seasons)
+
 # print(seasons[0])
 # print(seasons[-1])
 
