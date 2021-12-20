@@ -7,11 +7,8 @@ soup = BeautifulSoup(response.text, 'html.parser')     # html 객체 생성
 # ul = soup.find('ul', attrs={'class':'data_lst'})
 li = soup.select_one('ul.data_lst li')  # select_one 쓰려면 태그이름.클래스이름
 # print(li)
-# print(ul)
-# li = ul.find('li')
-# print(lis[0])
 exchange = li.select_one('span.blind')
-# print(exchange.text)
+print(exchange.text)
 value = li.select_one('span.value')
-# print(value.text)
+print(value.text)
 print(exchange.text, ":", value.text)
